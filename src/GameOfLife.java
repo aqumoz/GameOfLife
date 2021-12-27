@@ -4,7 +4,7 @@
 import java.io.Console;
 import java.io.IOException;
 //import java.io.InputStreamReader;
-import java.util.Arrays;
+//import java.util.Arrays;
 import java.util.Locale;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
@@ -232,7 +232,7 @@ class ConsoleUtils{
     public static boolean askYesNo(String question) {
         System.out.print(question + " (Y/n): ");
         String answer = null;
-        Console console = waitForConsole();
+        //Console console = waitForConsole();
 
         //set true if using MS Terminal and false if using IntelliJ Terminal
         if(false) {
